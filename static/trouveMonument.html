@@ -37,58 +37,172 @@
 <div class="container">
 
     <div class="row mx-auto">
-        <h2 class="mx-auto">Carte des monuments disponibles</h2>
-        <figure class="figure col-lg-12">
-            <img src="../assets/images/cartePlaceholderjpg.jpg" class="figure-img img-fluid rounded"
-                 alt="placeholder carte">
-            <figcaption class="figure-caption">Une carte placeholder</figcaption>
-        </figure>
-    </div>
+
+        <!--Catégories-->
+        <div class="col-4">
+
+            <div id="accordion">
+                <div class="card">
+
+                    <!-- Edifices Religieux-->
+                    <div class="row card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+                         aria-expanded="false" aria-controls="collapseOne">
+                        <img class="img-fluid imgLegende" src="../assets/images/egliseIcone.png"
+                             alt="egliseLegende">
+
+                        <h5 class="mb-0 col-7">
+                            <button class="btn btn-link">
+                                Edifices Religieux
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p class="description">Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte
+                                    standard de
+                                    l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble
+                                    des
+                                    morceaux de
+                                    texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que
+                                    survivre
+                                    cinq
+                                    siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu
+                                    n'en soit
+                                    modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles
+                                    Letraset
+                                    contenant
+                                    des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des
+                                    applications
+                                    de mise en
+                                    page de texte, comme Aldus PageMaker.
+                                </p>
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Cimetière du Père Lachaise</a>
+                                <a href="" class="list-group-item list-group-item-action">Abbaye de Cluny</a>
+                                <a href="" class="list-group-item list-group-item-action">Cathédrale de Reims</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
 
-    <div class="row">
+                <div class="card">
 
-        <!--edifices religieux-->
-        <div class="religieux col-lg-6">
-            <div class="row mx-auto">
-                <h3>Edifices Religieux</h3>
-            </div>
+                    <!-- Chateaux-->
+                    <div class="row card-header" id="headingChateau" data-toggle="collapse" data-target="#collapseTwo"
+                         aria-expanded="false" aria-controls="collapseOne">
+                        <img class="img-fluid imgLegende" src="../assets/images/egliseIcone.png"
+                             alt="egliseLegende">
 
-            <div class="row">
-                <figure class="figure">
-                    <img src="../assets/images/egliseIcone.png" class="figure-img img-fluid rounded"
-                         alt="placeholder carte">
-                    <figcaption class="figure-caption">Icone Eglise</figcaption>
-                </figure>
-            </div>
+                        <h5 class="mb-0 col-7">
+                            <button class="btn btn-link">
+                                Chateaux
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingChateau" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p class="description">Le Lorem Ipsum est simplement du faux texte employé dans la
+                                    composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte
+                                    standard de
+                                    l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble
+                                    des
+                                    morceaux de
+                                    texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que
+                                    survivre
+                                    cinq
+                                    siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu
+                                    n'en soit
+                                    modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles
+                                    Letraset
+                                    contenant
+                                    des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des
+                                    applications
+                                    de mise en
+                                    page de texte, comme Aldus PageMaker.
+                                </p>
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Cimetière du Père Lachaise</a>
+                                <a href="" class="list-group-item list-group-item-action">Abbaye de Cluny</a>
+                                <a href="" class="list-group-item list-group-item-action">Cathédrale de Reims</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
 
-            <!--Description-->
-            <div class="row">
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la
-                    composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de
-                    l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de
-                    texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq
-                    siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit
-                    modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant
-                    des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en
-                    page de texte, comme Aldus PageMaker.
-                </p>
-            </div>
 
-            <!--Exemples-->
 
-            <div class="row list-group">
-                <h3>Quelques exemples</h3>
-                <a href="" class="list-group-item list-group-item-action">Cimetière du Père Lachaise</a>
-                <a href="" class="list-group-item list-group-item-action">Abbaye de Cluny</a>
-                <a href="" class="list-group-item list-group-item-action">Cathédrale de Reims</a>
-                <a class="list-group-item list-group-item-action">...</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                Collapsible Group Item #3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
         </div>
+
+
+        <!--Carte de France-->
+        <div class="col-7">
+            <h2 class="mx-auto">Carte des monuments disponibles</h2>
+            <figure class="figure col-12">
+                <img src="../assets/images/cartePlaceholderjpg.jpg" class="figure-img img-fluid rounded"
+                     alt="placeholder carte">
+                <figcaption class="figure-caption">Une carte placeholder</figcaption>
+            </figure>
+        </div>
+
+
     </div>
+
 
 </div>
 
