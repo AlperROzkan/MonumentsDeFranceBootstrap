@@ -2,13 +2,14 @@ body {
     padding-top: 10px;
 }
 
+/*
 [class*="col-"], footer {
     background-color: lightgreen;
     border: 2px solid black;
     border-radius: 6px;
     line-height: 40px;
     text-align: center;
-}
+}*/
 
 .description {
     line-height: 20px;
@@ -18,3 +19,11 @@ body {
     height: 50px;
 }
 
+div.container{
+    margin-left: 25px;
+}
+
+
+div.col-7{
+    padding-left: 100px;
+}

@@ -42,7 +42,7 @@
 
 
     .mapcontainer2 {
-        maxWidth: 200px;
+        max-width: 100px;
         position: center;
         padding-top: 130px;
      }
