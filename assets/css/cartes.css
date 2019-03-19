@@ -1,0 +1,48 @@
+
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+
+    }
+
+    /* Specific mapael css class are below
+     * 'mapael' class is added by plugin
+    */
+
+    .mapael .map {
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .mapael .mapTooltip {
+        position: absolute;
+        background-color: #474c4b;
+        moz-opacity: 0.70;
+        opacity: 0.90;
+        filter: alpha(opacity=70);
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 28px;
+        z-index: 1000;
+        
+        display: none;
+        color: #fff;
+    }
+
+    svg {
+        width : 650px;
+        height : 650px;
+    }
+
+    body {
+        background-color: #808080;
+    }
+
+
+    .mapcontainer2 {
+        maxWidth: 200px;
+        position: center;
+        padding-top: 130px;
+     }
