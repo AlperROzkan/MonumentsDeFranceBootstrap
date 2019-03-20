@@ -26,7 +26,7 @@
         padding: 10px;
         margin-top: 28px;
         z-index: 1000;
-        
+
         display: none;
         color: #fff;
     }
@@ -36,13 +36,12 @@
         height : 650px;
     }
 
-    body {
-        background-color: #808080;
-    }
-
-
     .mapcontainer2 {
         max-width: 100px;
         position: center;
         padding-top: 130px;
+     }
+
+     div.container-fluid {
+       background-color: lightgrey;
      }

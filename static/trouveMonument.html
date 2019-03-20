@@ -39,20 +39,23 @@
     </div>
 </nav>
 
+<br>
 <div class="row d-flex justify-content-center">
     <h1>Monuments De France</h1>
 </div>
+<br>
 
-<div class="container">
+<div class="container-fluid">
 
     <div class="row">
 
         <!--Catégories-->
-        <div class="col-5">
-
+        <div class="col-3 offset-md-1 ">
+          <br>
+          <br>
             <div id="accordion">
                 <!-- Mini-presentation edifices religieux-->
-                <div class="card">
+                <div class="card" >
 
                     <!-- Edifices Religieux-->
                     <div class="row card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
@@ -310,9 +313,10 @@
         </div>
 
 
+
         <!--Carte de France-->
-        <div class="col-7">
-            <h2 class="mx-auto">Carte des monuments disponibles</h2>
+        <div class="col-6 offset-md-1">
+
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#france" role="tab"
@@ -323,34 +327,33 @@
                        aria-controls="profile" aria-selected="false">Ile-de-France</a>
                 </li>
             </ul>
+
+
+
+
+
             <div class="tab-content" id="myTabContent">
+
                 <div class="tab-pane fade show active" id="france" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="mapcontainer">
-                        <div class="map">
-                        </div>
-                    </div>
+                  <div class="mapcontainer"><div class="map"></div></div>
                 </div>
-                <div class="tab-pane fade" id="ilefrance" role="tabpanel" aria-labelledby="profile-tab">
-                    A FAIRE
+
+                <div class="tab-pane fade show active" id="ilefrance" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="container"><div class="mapcontainer2"><div class="map"></div></div></div>
                 </div>
+                
             </div>
 
 
-            <div class="container">
-                <!--TITRE-->
 
-                <div class="mapcontainer2">
-                    <div class="map">
-                    </div>
-                </div>
-            </div>
-        </div>
+
+  </div>
 
 
     </div>
 
 
 </div>
-
+<br>
 </body>
 </html>

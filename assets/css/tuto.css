@@ -5,7 +5,7 @@ body {
 /*
 [class*="col-"], footer {
     background-color: lightgreen;
-    border: 9px solid black;
+    border: 1px solid black;
     border-radius: 6px;
     line-height: 40px;
     text-align: center;
@@ -17,10 +17,6 @@ body {
 
 .imgLegende {
     height: 50px;
-}
-
-div.container{
-    margin-left: 25px;
 }
 
 
