@@ -172,7 +172,7 @@ $(function () {
             'mont saint michel': {
                 type: "image",
                 url: "../assets/images/marker.png",
-                href: './monuments/mont-saint-michel.html',
+                href: '../static/monuments/mont-saint-michel.html',
                 width: 18,
                 height: 45,
                 latitude: 48.636,
@@ -241,7 +241,7 @@ $(function () {
             'tour eiffel': {
                 type: "image",
                 url: "../assets/images/marker.png",
-                href: 'http://monumentsdefrance.com/tour-eiffel',
+                href: '../static/monuments/tour-eiffel.html',
                 width: 26,
                 height: 62,
                 x: 250,
