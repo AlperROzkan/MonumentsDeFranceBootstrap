@@ -11,8 +11,8 @@ $(function () {
         },
 
         plots: {
-        // Image plot
-           'ancienne douane strasbourg': {
+            // Image plot
+            'ancienne douane strasbourg': {
                 type: "image",
                 url: "../assets/images/marker.png",
                 href: 'http://monumentsdefrance.com/ancienne-douane-strasbourg',
@@ -29,42 +29,42 @@ $(function () {
                 text: {
                     content: "Ancienne Douane \nde Strasbourg",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/ancienne-douane-strasbourg.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/ancienne-douane-strasbourg.jpg\" height=\"200\" width=\"200\">",
                 }
             },
             'arenes de nimes': {
-                              type: "image",
-                              url: "../assets/images/marker.png",
-                              href: 'http://monumentsdefrance.com/arenes-de-nimes',
-                              width: 18,
-                              height: 45,
-                              latitude: 43.836699,
-                              longitude: 4.360054,
-                              attrs: {
-                                  opacity: 1
-                              },
-                              attrsHover: {
-                                  transform: "s1.5"
-                              },
-                              text: {
-                                  content: "Arènes de Nîmes",
-                                  position: "bottom",
-                                  margin : {"x":0, "y":-10},
-                                  attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                                  attrsHover: {opacity: 1,"font-size": 14},
+                type: "image",
+                url: "../assets/images/marker.png",
+                href: 'http://monumentsdefrance.com/arenes-de-nimes',
+                width: 18,
+                height: 45,
+                latitude: 43.836699,
+                longitude: 4.360054,
+                attrs: {
+                    opacity: 1
+                },
+                attrsHover: {
+                    transform: "s1.5"
+                },
+                text: {
+                    content: "Arènes de Nîmes",
+                    position: "bottom",
+                    margin: {"x": 0, "y": -10},
+                    attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14},
 
-                              }
-                              , tooltip: {
-                              overflow : {"bottom": true},
-                                  content : " <img src=\"../assets/images/arenes-de-nimes.jpg\" height=\"150\" width=\"200\">",
-                              }
-                          },
+                }
+                , tooltip: {
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/arenes-de-nimes.jpg\" height=\"150\" width=\"200\">",
+                }
+            },
             'Cite de Carcassonne': {
                 type: "image",
                 url: "../assets/images/marker.png",
@@ -82,13 +82,13 @@ $(function () {
                 text: {
                     content: "Cité de Carcassonne",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/carcassonne.jpg\" height=\"180\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/carcassonne.jpg\" height=\"180\" width=\"200\">",
                 }
             },
             'Château de Chambord': {
@@ -108,13 +108,13 @@ $(function () {
                 text: {
                     content: "Château de Chambord",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/chateau-de-chambord.jpg\" height=\"150\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/chateau-de-chambord.jpg\" height=\"150\" width=\"200\">",
                 }
             },
             'Fac de Médecine de Montpellier': {
@@ -134,13 +134,13 @@ $(function () {
                 text: {
                     content: "Fac de Médecine \nde Montpellier",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/fac-medecine-montpellier.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/fac-medecine-montpellier.jpg\" height=\"200\" width=\"200\">",
                 }
             },
             'Port de Honfleur': {
@@ -160,19 +160,19 @@ $(function () {
                 text: {
                     content: "Port de Honfleur",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/honfleur.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/honfleur.jpg\" height=\"200\" width=\"200\">",
                 }
             },
-           'mont saint michel': {
+            'mont saint michel': {
                 type: "image",
                 url: "../assets/images/marker.png",
-                href: 'http://monumentsdefrance.com/mont-saint-michel',
+                href: './monuments/mont-saint-michel.html',
                 width: 18,
                 height: 45,
                 latitude: 48.636,
@@ -186,13 +186,13 @@ $(function () {
                 text: {
                     content: "Mont Saint Michel",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/mont-saint-michel.jpg\" height=\"180\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/mont-saint-michel.jpg\" height=\"180\" width=\"200\">",
                 }
             },
             'opera lille': {
@@ -212,40 +212,31 @@ $(function () {
                 text: {
                     content: "Opera de Lille",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 11, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 14},
+                    attrsHover: {opacity: 1, "font-size": 14},
                 }
                 , tooltip: {
-                overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/opera-lille.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/opera-lille.jpg\" height=\"200\" width=\"200\">",
                 }
             },
-
-
-
-
-
-
-
 
 
         }
 
 
-
-
     });
 
     $(".mapcontainer2").mapael({
-            map: {
-                name: "paris_districts"
-                // disable zoom on the map
-                , zoom: {
-                    enabled: false,
-                }
-            },
-            plots: {
+        map: {
+            name: "paris_districts"
+            // disable zoom on the map
+            , zoom: {
+                enabled: false,
+            }
+        },
+        plots: {
             // Image plot
             'tour eiffel': {
                 type: "image",
@@ -254,7 +245,7 @@ $(function () {
                 width: 26,
                 height: 62,
                 x: 250,
-                y:250,
+                y: 250,
                 //plotsOn:"district-75107",
                 attrs: {
                     opacity: 1
@@ -265,13 +256,13 @@ $(function () {
                 text: {
                     content: "Tour Eiffel",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 16, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 20},
+                    attrsHover: {opacity: 1, "font-size": 20},
                 }
                 , tooltip: {
-                overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/tour-eiffel.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/tour-eiffel.jpg\" height=\"200\" width=\"200\">",
                 }
             },
             'Jardin des Tuileries': {
@@ -291,13 +282,13 @@ $(function () {
                 text: {
                     content: "Jardin des Tuileries",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 16, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 20},
+                    attrsHover: {opacity: 1, "font-size": 20},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/jardin-des-tuileries.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/jardin-des-tuileries.jpg\" height=\"200\" width=\"200\">",
                 }
             },
             'Cimetiere du père Lachaise': {
@@ -317,20 +308,18 @@ $(function () {
                 text: {
                     content: "Cimetiere du \npère Lachaise",
                     position: "bottom",
-                    margin : {"x":0, "y":-10},
+                    margin: {"x": 0, "y": -10},
                     attrs: {"font-size": 16, fill: "#EFEFEF", opacity: 0},
-                    attrsHover: {opacity: 1,"font-size": 20},
+                    attrsHover: {opacity: 1, "font-size": 20},
                 }
                 , tooltip: {
-                    overflow : {"bottom": true},
-                    content : " <img src=\"../assets/images/cimetiere-pere-lachaise.jpg\" height=\"200\" width=\"200\">",
+                    overflow: {"bottom": true},
+                    content: " <img src=\"../assets/images/cimetiere-pere-lachaise.jpg\" height=\"200\" width=\"200\">",
                 }
             },
 
-            }
+        }
 
 
-
-
-            });
+    });
 });
