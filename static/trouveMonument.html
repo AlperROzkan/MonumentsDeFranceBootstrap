@@ -18,18 +18,22 @@
     <script src="../assets/js/bootstrap.js"></script>
     <script src="../assets/js/onglet.js"></script>
     <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <link href="../assets/css/jquery.easy_slides.css" rel="stylesheet" type="text/css"/>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="../assets/js/jquery.easy_slides.js"></script>
 
 </head>
 
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="">Monuments De France</a>
+
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -46,8 +50,26 @@
 <br>
 <div class="row d-flex justify-content-center">
     <h1>Monuments De France</h1>
+
+    <div class="slider slider_four_in_line">
+        <img alt="Tour Eiffel" src="../assets/images/tour-eiffel.jpg">
+        <img alt="Mont Saint Michel" src="../assets/images/mont-saint-michel.jpg">
+        <img alt="Jardin des tuileries" src="../assets/images/jardin-des-tuileries.jpg">
+        <img alt="Opera Lille" src="../assets/images/opera-lille.jpg">
+        <img alt="Arene de nimes" src="../assets/images/arenes-de-nimes.jpg">
+        <img alt="Ancienne Douane Strasbourg" src="../assets/images/ancienne-douane-strasbourg.jpg">
+        <img alt="Carcassone" src="../assets/images/carcassonne.jpg">
+        <img alt="chateau chambord" src="../assets/images/chateau-de-chambord.jpg">
+        <img alt="cimetiere lachaise" src="../assets/images/cimetiere-pere-lachaise.jpg">
+        <div class="next_button"></div>
+        <div class="prev_button"></div>
+    </div>
 </div>
 <br>
+
+
+
+
 
 <div class="container-fluid">
 
@@ -333,12 +355,41 @@
 
 
         </div>
-
-
     </div>
 
 
 </div>
 <br>
+
+<script>
+    $(document).ready(function () {
+        $('.slider_one_big_picture').EasySlides({
+            'autoplay': true,
+            'stepbystep': false,
+            'show': 5,
+            'loop': false
+        })
+        $('.slider_one_big_2').EasySlides({
+            'autoplay': false,
+            'stepbystep': true,
+            'show': 5,
+            'loop': false
+        })
+        $('.slider_circle_10').EasySlides({
+            'autoplay': true,
+            'show': 13
+        })
+        $('.slider_four_in_line').EasySlides({
+            'autoplay': true,
+            'show': 9
+        })
+        $('.slider_clock').EasySlides({
+            'autoplay': true,
+            'stepbystep': false,
+            'show': 15
+        })
+    });
+
+</script>
 </body>
 </html>
