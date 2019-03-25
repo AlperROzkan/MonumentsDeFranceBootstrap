@@ -1,0 +1,25 @@
+[class*="col-"], footer {
+    background-color: #7FA0AC;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+}
+
+[class*="card-header"]{
+    background-color: #A5B0E3;
+    padding: 0px;
+}
+
+[class*="card"] {
+    border : none;
+}
+
+[class*="list-group-item"] {
+    background-color: #93A5CF;
+
+
+}
+
+button {
+    color: #1c7430;
+}
