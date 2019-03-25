@@ -1,25 +1,97 @@
 [class*="col-"], footer {
-    background-color: #7FA0AC;
-    border: 1px solid black;
-    border-radius: 6px;
+
     text-align: center;
 }
 
 [class*="card-header"]{
     background-color: #A5B0E3;
-    padding: 0px;
-}
-
-[class*="card"] {
-    border : none;
+    padding: 2px;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
+    box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
 }
 
 [class*="list-group-item"] {
     background-color: #93A5CF;
+}
 
+.legende {
+    background-color: #93A5CF;
+}
+
+#france {
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
-button {
-    color: #1c7430;
+#ilefrance {
+    height: 650px;
+    width: 700px;
+
+  }
+
+#france, #ilefrance{
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
+    box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+#ilefrance .container {
+    padding-left: 25px;
+    height: auto;
+
+}
+
+.ongletMap, .ongletMap:active {
+    background-color: #93A5CF;
+
+}
+
+[class*="card-header"]:hover {
+    cursor: pointer;
+}
+
+[class*="btn-link"], [class*="btn-link"]:hover, [class*="nav-link"], [class*="nav-link"]:hover{
+    color: black;
+
+}
+
+
+
+.nav-tabs .nav-link.active {
+    background-color: #70708D;
+}
+
+.bg-light{
+    background-color: #93A5CF !important;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    color:rgba(0,0,0,0.9);
+}
+
+body {
+    background-color:#F2F3F5;
+    font-family: Lato,Helvetica Neue,Cambria, serif !important;
+}
+
+.mapcontainer2 .map {
+   height: 400px;
+}
+
+.mapcontainer2 .map svg {
+    height: 400px;
 }
