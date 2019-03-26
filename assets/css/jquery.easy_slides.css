@@ -2,8 +2,8 @@
 
 .slider_one_big_picture {
     position: relative;
-    width: 50vw;
-    height: 38vw;
+    width: 100vw;
+    height: 50vw;
     margin: 0 auto;
     user-select: none;
     /*overflow: hidden;*/
