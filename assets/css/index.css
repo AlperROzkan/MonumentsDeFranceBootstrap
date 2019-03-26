@@ -37,13 +37,6 @@
 
 #france, #ilefrance{
     margin-top: 5px;
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px;
-    border: 1px solid #000000;
-    -webkit-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
-    -moz-box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
-    box-shadow: 2px 2px 4px 0px rgba(200,216,235,1);
 }
 
 .nav-tabs {
@@ -116,7 +109,9 @@ p {
     padding: 10px;
 }
 
-
+.carteEtLeg {
+background-color: rgba(222,184,135,0.6);
+}
 
 
 
@@ -158,3 +153,4 @@ p {
         padding-right: 1.1rem;
     }
 }
+
