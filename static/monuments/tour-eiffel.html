@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mont Saint Michel</title>
+    <title>Tour Eiffel</title>
     <link href="../../assets/css/bootstrap.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
@@ -13,20 +13,36 @@
     <script src="../../assets/js/paris_districts.js" charset="utf-8"></script>
     <script type="text/javascript" src="../../assets/js/cartes.js"></script>
     <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/monuments.css">
+    <link href="../../assets/css/menu.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-<div class="container-fluid">
-    <!--Titre, retour à l'acceuil-->
-    <h1 class="text-center">Tour Eiffel</h1>
-    <h6 class="text-center"><a target="_blank" href="../trouveMonument.html">Retour à l'acceuil</a></h6>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="container">
-    <!--Presentation-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="../index.html">Monuments De France<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+    <h1 class="titreMonum">Tour Eiffel</h1>
+
+</nav>
+
+<div class="container-fluid">
+<!-- DEBUT /////////////////////////////////////////////////////////////////////////!-->
     <div class="row">
-        <div class="row">
-            <p class="lead col-12 presentation">
+        <!--Presentation-->
+        <div class="row debut">
+
+            <p class="lead col-8 offset-md-2 presentation">
                 Construite de façon éphémère pour l'exposition universelle de 1900 à Paris, la Tour Eiffel a su
                 s'imposer dans le coeur des Parisiens et des Français. La Dame de fer, conçue par Gustave Eiffel, est
                 aujourd'hui le symbole de la capitale, voire du pays entier. Haute de plus de 300 mètres, elle culmine
@@ -34,28 +50,32 @@
                 les escaliers. Les autres préfèreront les ascenseurs. Mais tous pourront profiter d'un panorama
                 exceptionnel sur les toits de Paris.
             </p>
-        </div>
+
         <!--Image-->
-        <div class="text-center row">
-            <figure class="figure">
-                <img src="../../assets/images/tour-eiffel.jpg" class="figure-img img-fluid rounded"
+        <div class="container">
+            <figure class="figure col-10 offset-md-1">
+                <img src="../../assets/images/tour-eiffel.jpg" class="figure-img img-fluid rounded imgdebut"
                      alt="image tour eiffel">
                 <!--Titre de l'image-->
                 <figcaption class="figure-caption">Tour Eiffel de nuit</figcaption>
             </figure>
         </div>
-        <div class="row">
-            <p>La tour Eiffel est l'un des monuments les plus visités au monde. C'est un symbole de la ville de Paris,
+        </div>
+
+        <!-- INFOS text /////////////////////////////////////////////////////////////////////////!-->
+
+        <div class="row text">
+            <p class="col-4 offset-md-1">La tour Eiffel est l'un des monuments les plus visités au monde. C'est un symbole de la ville de Paris,
                 connu dans le monde entier. Initialement, elle avait été construite par l'ingénieur Gustave Eiffel pour
                 l'exposition universelle de 1889. La composition de son ossature lui a valut son surnom de ''dame de
                 fer''.</p>
-            <p>
+            <p class="col-4 offset-md-1">
                 À la fin de sa construction, la tour Eiffel était le monument le plus haut du monde, culminant à 313,2
                 mètres. Elle le resta pendant 41 ans. Les travaux ont duré deux ans et deux mois, ce qui semble peut
                 pour un édifice de cette hauteur à l'époque. 250 ouvriers furent employés sur le chantier.
             </p>
 
-            <p>
+            <p class="col-4 offset-md-1">
 
                 L'inauguration eu lieu le 31 mars 1889. Après l'exposition universelle, le monument continua à recevoir
                 des visiteurs, mais leur nombre était bien moindre que celui d'aujourd'hui. L'arrivée du tourisme
@@ -64,11 +84,15 @@
         </div>
     </div>
 
+    <!--INFO CADRES ////////////////////////////////////////////////////////////-->
+
     <!--Tarifs et accès-->
-    <div class="row">
+    <div class="row infos">
         <!-- Tarifs-->
-        <div class="col-6">
-            <h2>Tarifs Tour Eiffel</h2>
+        <div class="col-5 offset-md-1">
+            <div class="col-10 offset-1 impair">
+                <h2>Tarifs Tour Eiffel</h2>
+
 
             <h5>Accès au 2e étage par les escaliers :</h5>
             <ul>
@@ -90,59 +114,91 @@
                 <li>13,50€ pour les jeunes de moins de 24 ans</li>
                 <li>11€ pour les moins de 11 ans et les personnes handicapées</li>
             </ul>
+            </div>
         </div>
 
         <!--Accès-->
-        <div class="col-6">
+        <div class="col-5">
+            <div class="col-7 offset-1 pair">
             <h2>Acces Tour Eiffel</h2>
             <p>Métro : station Bir-Hakeim (ligne 6)</p>
             <p>RER : Champ de Mars - Tour Eiffel (ligne C)</p>
+            </div>
         </div>
     </div>
 
-    <div class="row">
+
+    <div class="row infos">
         <!--Horaires-->
-        <div class="col-6">
+        <div class="col-5 offset-md-1">
+            <div class="col-7 offset-1 pair">
             <h2>Horaires Tour Eiffel</h2>
             <p>La Tour Eiffel est accessible tous les jours de 9 heures 30 à 23 heures en hiver et de 9 heures à minuit
                 en été.</p>
         </div>
+        </div>
 
         <!--Contact-->
-        <div class="col-6">
+        <div class="col-5">
+            <div class="col-7 offset-1 impair">
             <h2>Contact Tour Eiffel</h2>
             <p>Telephone : 0892 70 12 39</p>
         </div>
+        </div>
     </div>
 
-    <div class="row">
+    <div class="row infos">
         <!--Adresse-->
-        <div class="col-6">
+        <div class="col-5 offset-md-1 ">
+            <div class="col-7 offset-1 impair">
             <h2>Adresse Tour Eiffel</h2>
             <p>Adresse : Tour Eiffel, Champ de Mars, 5 Avenue Anatole France, 75007 Paris</p>
         </div>
+    </div>
 
-        <div class="col-6">
+
+        <div class="col-5">
+            <div class="col-7 offset-1 pair">
             <h2>Liens utiles Tour Eiffel</h2>
             <p><a target="_blank" href="https://www.toureiffel.paris/fr">Site officiel de la Tour Eiffel</a></p>
         </div>
-    </div>
-
-    <div class="row">
-        <h2>Videos Tour Eiffel</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315"
-                    src="https://www.youtube.com/embed/65by9yQJfO4" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-        </div>
-
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://www.youtube.com/embed/x1vHz1hh6Gs" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
         </div>
     </div>
+
+<br>
+<br>
+<br>
+<div class="row fin">
+    <div class="col-11 ">
+        <h2>Quelques Vidéos</h2>
+        <br>
+    </div>
+
+    <div class="col-5 offset-md-1 ">
+
+        <iframe class="embed-responsive-item" width="560" height="400"
+                src="https://www.youtube.com/embed/65by9yQJfO4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+    </div>
+    <div class="col-5 offset-1">
+
+        <iframe class="embed-responsive-item" width="560" height="400"
+                src="https://www.youtube.com/embed/x1vHz1hh6Gs" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
 
 
 </div>
