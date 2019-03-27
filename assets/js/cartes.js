@@ -240,7 +240,7 @@ $(function () {
             // Image plot
             'tour eiffel': {
                 type: "image",
-                url: "../assets/images/marker.png",
+                url: "../assets/images/marker2.png",
                 href: '../static/monuments/tour-eiffel.html',
                 width: 26,
                 height: 62,
@@ -267,10 +267,10 @@ $(function () {
             },
             'Jardin des Tuileries': {
                 type: "image",
-                url: "../assets/images/marker.png",
+                url: "../assets/images/natureIcon2.png",
                 href: 'http://monumentsdefrance.com/jardin-des-tuileries',
-                width: 26,
-                height: 62,
+                width: 45,
+                height: 50,
                 x: 360,
                 y: 180,
                 attrs: {
@@ -282,7 +282,7 @@ $(function () {
                 text: {
                     content: "Jardin des Tuileries",
                     position: "bottom",
-                    margin: {"x": 0, "y": -10},
+                    margin: {"x": 0, "y": 25},
                     attrs: {"font-size": 16, fill: "#93A5CF", opacity: 0},
                     attrsHover: {opacity: 1, "font-size": 20,fill: "#93A5CF"},
                 }
@@ -293,10 +293,10 @@ $(function () {
             },
             'Cimetiere du père Lachaise': {
                 type: "image",
-                url: "../assets/images/marker.png",
+                url: "../assets/images/egliseIcone4.png",
                 href: 'http://monumentsdefrance.com/cimetiere-pere-lachaise',
-                width: 26,
-                height: 62,
+                width: 45,
+                height: 50,
                 x: 620,
                 y: 200,
                 attrs: {
@@ -308,7 +308,7 @@ $(function () {
                 text: {
                     content: "Cimetiere du \npère Lachaise",
                     position: "bottom",
-                    margin: {"x": 0, "y": -10},
+                    margin: {"x": 0, "y": 25},
                     attrs: {"font-size": 16, fill: "#93A5CF", opacity: 0},
                     attrsHover: {opacity: 1, "font-size": 20,fill: "#93A5CF"},
                 }
