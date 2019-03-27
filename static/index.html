@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <title>Monuments De France</title>
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/cartes.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+            charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+    <script src="../assets/js/jquery.mapael.js" charset="utf-8"></script>
+    <script src="../assets/js/maps/france_departments.js" charset="utf-8"></script>
+    <script src="../assets/js/paris_districts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../assets/js/cartes.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <script src="../assets/js/onglet.js"></script>
     <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <link href="../assets/css/jquery.easy_slides.css" rel="stylesheet" type="text/css"/>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="../assets/js/jquery.easy_slides.js"></script>
+    <script src="../assets/js/menu.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="../assets/css/menu.css" type="text/css" rel="stylesheet">
 
 </head>
 
 <body>
-<script src="../assets/vendor/jquery/jquery.js"></script>
-<script src="../assets/js/bootstrap.js"></script>
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -18,38 +37,349 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="">Monuments De France</a>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Acceuil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="trouveMonument.html">Trouver un Monument </a>
-            </li>
-        </ul>
-    </div>
+    
 </nav>
 
-<div class="row d-flex justify-content-center">
-    <h1>Monuments De France</h1>
+<div id="containerImg" class="row d-flex justify-content-center">
+    <h1 id="titleImage">Monuments De France</h1>
+
+    <div id="images" class="slider slider_one_big_picture">
+        <img alt="Tour Eiffel" src="../assets/images/tour-eiffel.jpg">
+        <img alt="Mont Saint Michel" src="../assets/images/mont-saint-michel.jpg">
+        <img alt="Jardin des tuileries" src="../assets/images/jardin-des-tuileries.jpg">
+        <img alt="Opera Lille" src="../assets/images/opera-lille.jpg">
+        <img alt="Arene de nimes" src="../assets/images/arenes-de-nimes.jpg">
+        <img alt="Ancienne Douane Strasbourg" src="../assets/images/ancienne-douane-strasbourg.jpg">
+        <img alt="Carcassone" src="../assets/images/carcassonne.jpg">
+        <img alt="chateau chambord" src="../assets/images/chateau-de-chambord.jpg">
+        <img alt="cimetiere lachaise" src="../assets/images/cimetiere-pere-lachaise.jpg">
+        <div class="next_button"></div>
+        <div class="prev_button"></div>
+        <div class="nav_indicators"></div>
+    </div>
 </div>
 
-<div class="container">
+<div class="col-8 offset-md-2 presentation">
+        <p>
+            Monumentsdefrance.com vous en présente certains des lieux touristiques parmi les plus
+            populaires, les plus visités et les plus emblématiques du pays. Les différentes informations utiles (adresse,
+            contact, horaires, accès, tarifs des visites) vous permettront de vous rendre simplement et rapidement dans les
+            monuments français les plus connus lors de votre prochaine excursion dans ce beau pays européen qu'est la
+            France.
 
-    <div class="row presentation">
-        <div class="row">
-            <h2>Presentation</h2>
-            <p>Premier pays touristique au monde, la France accueille plus de 80 millions de visiteurs chaque année. Le pays étonne par la beauté et la diversité de ses paysages, ses nombreux monuments mondialement connus et chargés en histoire et en culture mais aussi par ses spécialités culinaires innombrables et toutes aussi variées les unes que les autres. Des plages de la Méditerranée aux Champs Elysées en passant par les montagnes des Alpes, les Landes, les forêts des Vosges et les côtes bretonnes ; des kouign amman aux saucisses de Toulouse en passant par les mirabelles de Lorraine, la fougasse, le brie ou les panisses, chaque gourmand trouvera à coup sûr son bonheur. Vous les connaissez peut-être déjà ou rêvez de les visiter... Les monuments de France représentent l'histoire de ce beau pays, qu'ils soient en ville ou dans les campagnes. La France est parsemée de trésors plus beaux les uns que les autres. Prenez le temps de les découvrir au fil de weekend ou de vacances en famille, en couple ou entre amis. Monumentsdefrance.com vous en présente certains des lieux touristiques parmi les plus populaires, les plus visités et les plus emblématiques du pays. Les différentes informations utiles (adresse, contact, horaires, accès, tarifs des visites) vous permettront de vous rendre simplement et rapidement dans les monuments français les plus connus lors de votre prochaine excursion dans ce beau pays européen qu'est la France.
-            </p>
+        </p>
+        <p>
+        Premier pays touristique au monde, la France accueille plus de 80 millions de visiteurs chaque année. Le pays
+        étonne par la beauté et la diversité de ses paysages, ses nombreux monuments mondialement connus et chargés en
+        histoire et en culture.
+        </p>
+        <p>
+        Prenez le temps de découvrir les trésors de la France au fil de weekend, de vacances en famille, en
+        couple ou entre amis.
+        </p>
+</div>
+
+
+<div class="container-fluid carteEtLeg">
+    <br>
+    <div class="row">
+
+        <!--Catégories-->
+        <div class="col-3 offset-md-2 ">
+            <br>
+            <br>
+            <div id="accordion">
+                <!-- Mini-presentation edifices religieux-->
+                <div class="card">
+
+                    <!-- Edifices Religieux-->
+                    <div class="row card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+                         aria-expanded="false" aria-controls="collapseOne">
+
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/egliseIcone3.png"
+                                 alt="egliseLegende">
+                        </div>
+
+                        <h5 class="mb-0 col-6 legende">
+                            <button class="btn btn-link">
+                                Edifices Religieux
+                            </button>
+                        </h5>
+
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/downIcone.png" alt="down">
+                        </div>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p>
+                                    On dénombre en France près de 100 000 édifices religieux dont 15 000 protégés au
+                                    titre des monuments historiques.
+                                </p>
+                                <p>
+                                    Le patrimoine catholique représente 45 000 églises paroissiales, de chapelles
+                                    privées, abbayes, et autres monuments aujourd’hui désaffectés.
+                                </p>
+                                <p>
+                                    On dénombre également 3000 lieux de culte protestants, 2 200 mosquées, 500
+                                    synagogues et 300 temples bouddhistes.
+                                </p>
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Cimetière du Père Lachaise</a>
+                                <a href="" class="list-group-item list-group-item-action">Abbaye de Cluny</a>
+                                <a href="" class="list-group-item list-group-item-action">Cathédrale de Reims</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Presentation chateaux-->
+                <div class="card">
+                    <!-- Titre -->
+                    <div class="row card-header" id="headingChateau" data-toggle="collapse" data-target="#collapseTwo"
+                         aria-expanded="false" aria-controls="collapseTwo">
+
+                        <!--Image-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/castleIcone.png"
+                                 alt="castleLegende">
+                        </div>
+
+                        <!--Intitulé-->
+                        <h5 class="mb-0 col-6 legende">
+                            <button class="btn btn-link">
+                                Chateaux
+                            </button>
+                        </h5>
+
+                        <!--Fleche vers le bas-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/downIcone.png" alt="down">
+                        </div>
+
+                    </div>
+                    <!-- Corps de la présentation-->
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingChateau" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p>Un château est à l'origine une construction médiévale destinée à
+                                    protéger le seigneur ainsi que la population du village attenant et à symboliser son
+                                    autorité au sein du fief.</p>
+
+                                <p>À la Renaissance, les rois de France décidèrent
+                                    de construire ou d'aménager leurs châteaux non plus pour la défense, mais pour leur
+                                    agrément et leur confort.</p>
+
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Château de Chambord</a>
+                                <a href="" class="list-group-item list-group-item-action">Palais des papes Avignon</a>
+                                <a href="" class="list-group-item list-group-item-action">Chateau des Ducs de
+                                    Bretagne</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Edifices Naturels-->
+                <div class="card">
+                    <!-- Titre -->
+                    <div class="row card-header" id="headingNaturel" data-toggle="collapse" data-target="#collapseThree"
+                         aria-expanded="false" aria-controls="collapseThree">
+
+                        <!--Image-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/natureIcon.png"
+                                 alt="naturelLegende">
+                        </div>
+
+                        <!--Intitulé-->
+                        <h5 class="mb-0 col-6 legende">
+                            <button class="btn btn-link">
+                                Edifices naturels
+                            </button>
+                        </h5>
+
+                        <!--Fleche vers le bas-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/downIcone.png" alt="down">
+                        </div>
+
+                    </div>
+                    <!-- Corps de la présentation-->
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingNaturel" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p>
+                                    Un monument naturel est un élément rare issu de la nature qui possède une valeur
+                                    sociale et singulière.
+                                    Il possède des qualités esthétiques une forte signification culturelle et est
+                                    protégé pour ces raisons.
+                                </p>
+
+
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Jardin des Tuileries</a>
+                                <a href="" class="list-group-item list-group-item-action">Foret de Brocéliande en
+                                    Bretagne</a>
+                                <a href="" class="list-group-item list-group-item-action">Jardin des Plantes</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Musées-->
+                <div class="card">
+                    <!-- Titre -->
+                    <div class="row card-header" id="headingMusee" data-toggle="collapse" data-target="#collapseFour"
+                         aria-expanded="false" aria-controls="collapseFour">
+
+                        <!--Image-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/museeIcone.png"
+                                 alt="naturelLegende">
+                        </div>
+
+                        <!--Intitulé-->
+                        <h5 class="mb-0 col-6 legende">
+                            <button class="btn btn-link">
+                                Musées
+                            </button>
+                        </h5>
+
+                        <!--Fleche vers le bas-->
+                        <div class="col-3 legende">
+                            <img class="img-fluid" src="../assets/images/downIcone.png" alt="down">
+                        </div>
+
+                    </div>
+                    <!-- Corps de la présentation-->
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingMusee" data-parent="#accordion">
+                        <div class="card-body">
+                            <!--Description-->
+                            <div class="row">
+                                <p>
+                                    Un musée est un lieu dans lequel sont collectés, conservés et exposés des objets
+                                    dans un souci d’enseignement et de culture.
+                                </p>
+
+                                <p>
+                                    Les musées sont souvent spécialisés, il existe neuf grandes
+                                    catégories : les musées d'archéologie, les musées d'art, les musées des Beaux-Arts,
+                                    les musées des arts décoratifs, les musées d'histoire, les musées de sciences,
+                                    musées d'histoire naturelle, les musées des techniques et les musées d'ethnologie.
+                                </p>
+
+                            </div>
+                            <!--Exemples-->
+                            <div class="row list-group">
+                                <h3>Quelques exemples</h3>
+                                <a href="" class="list-group-item list-group-item-action">Musée du Louvre</a>
+                                <a href="" class="list-group-item list-group-item-action">Musée Granet</a>
+                                <a href="" class="list-group-item list-group-item-action">Musée d'Orsay</a>
+                                <a class="list-group-item list-group-item-action">...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!--Carte de France-->
+        <div class="col-6">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item ongletMap">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#france" role="tab"
+                       aria-controls="home" aria-selected="true">France</a>
+                </li>
+                <li class="nav-item ongletMap">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#ilefrance" role="tab"
+                       aria-controls="profile" aria-selected="false">Ile-de-France</a>
+                </li>
+            </ul>
+
+
+            <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="france" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="mapcontainer">
+                        <div class="map"></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show active" id="ilefrance" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="container">
+                        <div class="mapcontainer2">
+                            <div class="map"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
 
-
-
-
 </div>
 
+<script>
+    $(document).ready(function () {
+        $('.slider_one_big_picture').EasySlides({
+            'autoplay': true,
+            'stepbystep': false,
+            'show': 5,
+            'loop': false
+        })
+        $('.slider_one_big_2').EasySlides({
+            'autoplay': false,
+            'stepbystep': true,
+            'show': 5,
+            'loop': false
+        })
+        $('.slider_circle_10').EasySlides({
+            'autoplay': true,
+            'show': 13
+        })
+        $('.slider_four_in_line').EasySlides({
+            'autoplay': true,
+            'show': 9
+        })
+        $('.slider_clock').EasySlides({
+            'autoplay': true,
+            'stepbystep': false,
+            'show': 15
+        })
+    });
+
+
+</script>
 </body>
 </html>

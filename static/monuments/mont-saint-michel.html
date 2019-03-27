@@ -13,55 +13,75 @@
     <script src="../../assets/js/paris_districts.js" charset="utf-8"></script>
     <script type="text/javascript" src="../../assets/js/cartes.js"></script>
     <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/monuments.css">
+    <link href="../../assets/css/menu.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
 
-<div class="container-fluid">
-    <!--Titre, retour à l'acceuil-->
-    <h1 class="text-center">Mont Saint Michel</h1>
-    <h6 class="text-center"><a target="_blank" href="../trouveMonument.html">Retour à l'acceuil</a></h6>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="container">
-    <!--Presentation-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="../index.html">Monuments De France<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+    <h1 class="titreMonum">Mont Saint Michel</h1>
+
+</nav>
+
+<div class="container-fluid">
+
     <div class="row">
-        <div class="row">
-            <p class="lead col-12 presentation">
-                Monument le plus visité de France en dehors de Paris, le Mont Saint Michel est un symbole à
+        <!--Presentation-->
+        <div class="debut">
+
+            <p class="lead col-8 offset-md-2 presentation">
+                L'un des monuments les plus visités de France, le Mont Saint Michel est un symbole à
                 l'internationale. Ce village édifié sur un rocher dans la Manche comporte une abbaye dédiée à Saint
                 Michel
                 (d'où son nom). La statue de l'archange trône d'ailleurs au sommet de l'édifice religieux. Ce monument
                 français célèbre est au coeur d'une ''querelle' entre Bretons et Normands : chacun revendiquant
                 l'appartenance du Mont à sa région.
             </p>
+
+            <div class="container">
+                <figure class="figure col-10 offset-md-1">
+                    <img src="../../assets/images/mont-saint-michel.jpg" class="figure-img img-fluid rounded imgdebut"
+                         alt="mont saint michel">
+                    <!--Titre de l'image-->
+                    <figcaption class="figure-caption">Mont Saint Michel au lever du soleil</figcaption>
+                </figure>
+            </div>
+
         </div>
-        <!--Image-->
-        <div class="text-center row">
-            <figure class="figure">
-                <img src="../../assets/images/mont-saint-michel.jpg" class="figure-img img-fluid rounded"
-                     alt="mont saint michel">
-                <!--Titre de l'image-->
-                <figcaption class="figure-caption">Mont Saint Michel au lever du soleil</figcaption>
-            </figure>
-        </div>
+
+
         <div class="row">
-            <p>Le Mont Saint-Michel abrite l'abbaye du même nom, près du littoral normand, dans le département de la
+            <p class="col-4 offset-md-1">Le Mont Saint-Michel abrite l'abbaye du même nom, près du littoral normand, dans le département de la
                 Manche. Sa silhouette lui a été donnée par une église surmontée d'une statue de Saint Michel, qui
                 culmine à 170 mètres de hauteur.</p>
-            <p>
+            <p class="col-4 offset-md-1">
                 Le Mont Saint Michel est un îlot de roche. La construction d'un sanctuaire dédié à Saint Michel a débuté
                 dés 709. Le nom du mont a alors été changé, car on le nommait auparavant ''mont tombe''. La baie qui
                 l'entoure a elle aussi été rebaptisée d'après le saint honoré ici.
             </p>
 
-            <p>En 2001, l'Église a voulu redonner un caractère religieux à l'endroit. Des religieux s'y sont
+            <p class="col-4 offset-md-1">En 2001, l'Église a voulu redonner un caractère religieux à l'endroit. Des religieux s'y sont
                 réinstallés, appartenant aux Fraternités monastiques de Jérusalem. L'abbaye n'était plus habitée depuis
                 1979, car les frères bénédictins l'avaient peu à peu abandonné. Les offices célébrés par la communauté
                 actuelle sont accessibles au public, et des chambres devraient être ouvertes afin de permettre à des
                 pèlerins de rester quelques jours.
             </p>
 
-            <p>Des travaux de désensablement du Mont Saint Michel ont été entrepris au début du 21e siècle.
+            <p class="col-4 offset-md-1" >Des travaux de désensablement du Mont Saint Michel ont été entrepris au début du 21e siècle.
                 Controversés, ces travaux vont permettre de redonner son statut d'île au Mont Saint Michel.
             </p>
         </div>

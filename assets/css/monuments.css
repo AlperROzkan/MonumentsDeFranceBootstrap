@@ -1,0 +1,27 @@
+body {
+    background-color: #F2F3F5;
+    text-align: justify;
+    font-family: Lato, Helvetica Neue, Cambria, serif !important;
+    font-size: 1rem;
+
+}
+
+.bg-light {
+    background-color: #c66f49 !important;
+}
+
+.titreMonum {
+   position: relative;
+   right: 35%;
+}
+
+.debut {
+
+  background-color :#E5CFB3;
+}
+
+.presentation {
+
+    margin-top: 100px;
+
+}

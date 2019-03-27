@@ -1,0 +1,14 @@
+.bg-light {
+    background-color: #c66f49 !important;
+}
+
+.menuVolant {
+    background-color: rgba(198,111,73,0.7) !important;
+}
+
+nav {
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+
+}

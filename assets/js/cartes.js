@@ -30,8 +30,8 @@ $(function () {
                     content: "Ancienne Douane \nde Strasbourg",
                     position: "bottom",
                     margin: {"x": 0, "y": -10},
-                    attrs: {"font-size": 12, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14, fill: "#93A5CF"},
+                    attrs: {"font-size": 12, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14, fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -56,8 +56,8 @@ $(function () {
                     content: "Arènes de Nîmes",
                     position: "bottom",
                     margin: {"x": 0, "y": -10},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
 
                 }
                 , tooltip: {
@@ -83,8 +83,8 @@ $(function () {
                     content: "Cité de Carcassonne",
                     position: "bottom",
                     margin: {"x": 0, "y": 25},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -109,8 +109,8 @@ $(function () {
                     content: "Château de Chambord",
                     position: "bottom",
                     margin: {"x": 0, "y": 25},
-                    attrs: {"font-size": 11,fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11,fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -135,8 +135,8 @@ $(function () {
                     content: "Fac de Médecine \nde Montpellier",
                     position: "bottom",
                     margin: {"x": 0, "y": 5},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -161,8 +161,8 @@ $(function () {
                     content: "Port de Honfleur",
                     position: "bottom",
                     margin: {"x": 0, "y": -10},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -187,8 +187,8 @@ $(function () {
                     content: "Mont Saint Michel",
                     position: "bottom",
                     margin: {"x": 0, "y": 20},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -213,8 +213,8 @@ $(function () {
                     content: "Opera de Lille",
                     position: "bottom",
                     margin: {"x": 0, "y": -10},
-                    attrs: {"font-size": 11, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 14,fill: "#93A5CF"},
+                    attrs: {"font-size": 11, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 14,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -257,8 +257,8 @@ $(function () {
                     content: "Tour Eiffel",
                     position: "bottom",
                     margin: {"x": 0, "y": -10},
-                    attrs: {"font-size": 16, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 20,fill: "#93A5CF"},
+                    attrs: {"font-size": 16, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 20,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -283,8 +283,8 @@ $(function () {
                     content: "Jardin des Tuileries",
                     position: "bottom",
                     margin: {"x": 0, "y": 25},
-                    attrs: {"font-size": 16, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 20,fill: "#93A5CF"},
+                    attrs: {"font-size": 16, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 20,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
@@ -309,8 +309,8 @@ $(function () {
                     content: "Cimetiere du \npère Lachaise",
                     position: "bottom",
                     margin: {"x": 0, "y": 25},
-                    attrs: {"font-size": 16, fill: "#93A5CF", opacity: 0},
-                    attrsHover: {opacity: 1, "font-size": 20,fill: "#93A5CF"},
+                    attrs: {"font-size": 16, fill: "#d73f00", opacity: 0},
+                    attrsHover: {opacity: 1, "font-size": 20,fill: "#d73f00"},
                 }
                 , tooltip: {
                     overflow: {"bottom": true},
