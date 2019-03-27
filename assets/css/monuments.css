@@ -11,17 +11,62 @@ body {
 }
 
 .titreMonum {
-   position: relative;
-   right: 35%;
+    position: relative;
+    right: 35%;
 }
 
-.debut {
+.debut, .fin {
 
-  background-color :#E5CFB3;
+    background-color: #E5CFB3;
 }
 
 .presentation {
 
     margin-top: 100px;
 
+}
+
+.text {
+    margin-top: 20px;
+}
+.infos {
+
+    margin-top: 30px;
+}
+
+.pair {
+ background-color: #e6944d;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #e6944d;
+    -webkit-box-shadow: 2px 2px 4px 0px #e6944d;
+    -moz-box-shadow: 2px 2px 4px 0px #e6944d;
+    box-shadow: 2px 2px 4px 0px #e6944d;
+}
+
+.impair{
+ background-color: #f3cc73;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #f3cc73;
+    -webkit-box-shadow: 2px 2px 4px 0px #f3cc73;
+    -moz-box-shadow: 2px 2px 4px 0px #f3cc73;
+    box-shadow: 2px 2px 4px 0px #f3cc73;
+}
+
+.impair, .pair {
+    padding: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fin {
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
